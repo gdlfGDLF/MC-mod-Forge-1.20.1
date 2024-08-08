@@ -1,0 +1,39 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
+
+[[mods]] #mandatory
+
+modId="updata" #mandatory
+
+version="0.2" #mandatory
+
+displayName="更高级的工具" #mandatory
+
+authors="古德来福" #optional
+
+description='''练手项目（目标：高级武器 高级食物 GUI天赋界面）'''
+
+
+[[dependencies.${mod_id}]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="${forge_version_range}" #mandatory
+
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

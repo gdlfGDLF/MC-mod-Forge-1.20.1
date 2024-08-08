@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "X": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "result": {
+    "item": "updata:up_sword_raresword",
+    "count": 1
+  }
+}
